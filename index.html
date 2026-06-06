@@ -1,165 +1,427 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Rajesh | Portfolio</title>
-  <link rel="stylesheet" href="my_css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <meta name="description" content="Rajesh Katukam — Full Stack Developer & B.Tech IT Graduate (2026) from Hyderabad. Expert in Java, Python, Django, React.js, and AI/ML applications."/>
+  <meta name="theme-color" content="#0a0a0f"/>
+  <meta property="og:title" content="Rajesh Katukam — Full Stack Developer"/>
+  <meta property="og:description" content="B.Tech IT Graduate 2026. Java, Python, Django, React.js, AI/ML. Top 10 Hackathon Finalist. 150+ DSA problems solved."/>
+  <meta property="og:type" content="website"/>
+  <title>Rajesh Katukam — Full Stack Developer</title>
+
+  <!-- Preconnect for font speed -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <!-- Only load the exact weights needed -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@300;400;500&display=swap"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@300;400;500&display=swap" media="print" onload="this.media='all'"/>
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@300;400;500&display=swap"/></noscript>
+  <link rel="stylesheet" href="Portfolio.css">
+
+  <style>
+    
+  </style>
 </head>
 <body>
 
-  <header>
-    <img src="images/profile.png" alt=""https://drive.google.com/file/d/1D5yqHQoNr891-fQP4k4lC3-LkioZMDEp/view?usp=sharing"" class="my_img">
-    <h1 class="logo">Rajesh Katukam | Fullstack Developer</h1>
-    <nav class="navbar">
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#education">Education</a>
-      <a href="#projects">Projects</a>
-      <a href="#certifications">Certifications</a>
-      <a href="#contact">Contact</a>
-      <a href="https://drive.google.com/file/d/19VZyOHJ1Drl1op79HawItHzr-U5gwsxh/view?usp=drive_link" class="resume-btn" download><i class="fa fa-download"></i> Download Resume</a>
-    </nav>
-  </header>
+<!-- HEADER -->
+<header>
+  <div class="logo-text" aria-label="Rajesh Katukam">Rajesh<span>.</span></div>
+  <nav aria-label="Main navigation">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+    <a href="https://drive.google.com/file/d/1wfICzTehQFWSFzBlwxIAyl7mF0_d8GD5/view?usp=sharing"
+       class="resume-btn" target="_blank" rel="noopener" aria-label="Download Resume">
+      ↓ Resume
+    </a>
+  </nav>
+</header>
 
-  
-  <main>
-    <section id="about">
-      <h2>About Me</h2><br>
-      <p>Java Full Stack Developer with experience of building end-to-end web applications using Java, Spring Boot, Hibernate, and frontend technologies like HTML, CSS, JavaScript, and React. Skilled in developing RESTful APIs, integrating databases, and deploying scalable solutions. Strong in problem-solving, clean code practices, and agile development environments</p>
-    </section>
-<hr>
-    <section id="skills">
-      <h2>Skills</h2><br>
-      <ul>
-        <li>Java</li>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-        <li>React.js</li>
-        <li>MySQL</li>
-        <li>Data Structures</li>
-        <li>Python</li>
-      </ul>
-    </section>
-<hr>
-    <section id="education">
-      <h2>Education</h2><br>
-      <ul>
-        <li><strong>CMR Technical Campus</strong> <br>- Bachelor of Technology IT (CGPA: 7.6)</li><br><br>
-        <li><strong>Govt Polytechnic College</strong> <br> - Diploma ECE (CGPA: 7.5)</li><br><br>
-        <li><strong>TS Model School</strong><br> - SSC (GPA: 8.5)</li><br><br>
-      </ul>
-    </section>
-<hr>
-    <section id="projects">
-      <h2>Projects</h2><br>
-      <div class="card-list">
-        <div class="card">
-          <strong>HOSPITAL MANAGEMENT CHATBOT</strong><br>
-          <a target="_blank" href="https://github.com/Rajeshkatukam07">GitHub</a> 
+<!-- HERO -->
+<section id="about" aria-label="About Rajesh Katukam" style="padding:0;max-width:100%;margin:0;">
+  <div id="hero">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-glow2" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-tag" role="status">Available for opportunities</div>
+        <h1 class="hero-name">Rajesh<br><span class="line2">Katukam</span></h1>
+        <p class="hero-role">Full Stack Developer &nbsp;·&nbsp; Java &amp; Python &nbsp;·&nbsp; AI/ML Enthusiast</p>
+        <p class="hero-desc">B.Tech IT graduate (2026) from CMR Technical Campus, Hyderabad. I build end-to-end web applications and AI-powered systems. Passionate about clean code, scalable architecture, and solving real-world problems.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">
+            <svg class="ico" aria-hidden="true" viewBox="0 0 24 24"><path d="M8 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3M16 3h3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-3M12 8l4 4-4 4M8 12h8" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+            View Projects
+          </a>
+          <a href="#contact" class="btn-secondary">
+            <svg class="ico" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="2" fill="none"/><polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+            Get in Touch
+          </a>
         </div>
-        <div class="card">
-          <strong>QUIZ / TRIVIA APP</strong><br>
-          <a target="_blank" href="https://github.com/Rajeshkatukam07">GitHub</a>
-        </div>
-        <div class="card">
-          <strong>MOVIE DATABASE ENGINE</strong><br>
-          <a target="_blank" href="https://github.com/Rajeshkatukam07">GitHub</a>
-        </div>
-        <div class="card">
-          <strong>CHAT APPLICATION USING JAVA</strong><br>
-          <a target="_blank" href="https://github.com/Rajeshkatukam07">GitHub</a>
+        <div class="hero-stats" aria-label="Key statistics">
+          <div><div class="stat-val">3+</div><div class="stat-label">Projects Built</div></div>
+          <div><div class="stat-val">150+</div><div class="stat-label">DSA Problems</div></div>
+          <div><div class="stat-val">6</div><div class="stat-label">Certifications</div></div>
+          <div><div class="stat-val">Top 10</div><div class="stat-label">Hackathon</div></div>
         </div>
       </div>
-    </section>
-<hr>
-    <section id="certifications">
-      <h2>Certifications</h2><br>
-      <div class="card-list">
-        <div class="card"><strong>JAVA FULLSTACK</strong> - Eduskills Academy <br><a target="_blank" href="https://drive.google.com/file/d/1aAsZYLuwQ8foPgVDdJNmPNHjIKZ8QP2J/view?usp=drive_link">  View</a></div>
-        <div class="card"><strong>WEBSITE DEVELOPMENT</strong> - Infosys springboard <br><a target="_blank" href="https://drive.google.com/file/d/1stpFX1HSAEpda9pyscQb0db74AEwOaUZ/view?usp=sharing">  View</a></div>
-        <div class="card"><strong>OS</strong> - Cisco Networking <br><a target="_blank" href="https://drive.google.com/file/d/1q8HuWep3Q3vqAa-K-lS9Xf2YhBbCgsfD/view?usp=drive_link">  View</a></div>
-        <div class="card"><strong>CSS</strong> - Cisco Networking <br><a target="_blank" href="https://drive.google.com/file/d/1idCYJokHouqKLPrVLu7dnBrT7Z0TndOj/view?usp=sharing">  View</a></div>
-        <div class="card"><strong>DATA ANALYTICS</strong> - Deloitte <br><a target="_blank" target="_blank" href="https://drive.google.com/file/d/1p3Ng_nw2VT36Xa9zhad4tyz1qoNdryN_/view?usp=sharing">  View</a></div>
-        <div class="card"><strong>AI BEGINEER</strong> - HP Life <br><a target="_blank" href="https://drive.google.com/file/d/1uh4rynaibYWOQKi0hECa5JPcBaKdxtbC/view?usp=drive_link">  View</a></div>
+      <div class="hero-avatar" aria-hidden="true">
+        <div class="avatar-ring">
+          <div class="avatar-inner">RK</div>
+          <div class="avatar-badge">Open to Work</div>
+        </div>
       </div>
-    </section>
-<hr>
-
-<section class="slide-section">
-  <h2>Slide Showcase</h2><br>
-  <p>This section can show slide content, like featured projects or presentations.</p>
-
-  <div class="carousel">
-    <div class="slides">
-      <img src="images/Eduskills Java Fullstack Certification.jpg" class="slide" height="600px" width="800px" >
-      <img src="images/Cisco Certification on OS.png" class="slide" height="500px" width="500px">
-      <img src="images/Hp_certification on Ai begineer.png" class="slide" height="500px" width="500px">
-    </div>
-
-    <div class="dots">
-      <span class="dot active" onclick="currentSlide(0)"></span>
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
     </div>
   </div>
 </section>
 
+<hr class="divider"/>
 
+<!-- SKILLS -->
+<section class="section fade-up" id="skills" aria-labelledby="skills-heading">
+  <div class="section-label">What I work with</div>
+  <h2 class="section-title" id="skills-heading">Technical Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <div class="skill-card-head">
+        <div class="skill-icon" aria-hidden="true">
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        </div>
+        <div class="skill-card-label">Languages</div>
+      </div>
+      <div class="skill-tags">
+        <span class="tag">Java</span><span class="tag">Python</span><span class="tag">JavaScript</span>
+      </div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-card-head">
+        <div class="skill-icon" aria-hidden="true">
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        </div>
+        <div class="skill-card-label">Web &amp; Frameworks</div>
+      </div>
+      <div class="skill-tags">
+        <span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">Bootstrap</span><span class="tag">React.js</span><span class="tag">Django</span><span class="tag">REST APIs</span>
+      </div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-card-head">
+        <div class="skill-icon" aria-hidden="true">
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+        </div>
+        <div class="skill-card-label">Database &amp; Tools</div>
+      </div>
+      <div class="skill-tags">
+        <span class="tag">MySQL</span><span class="tag">SQLite</span><span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">Postman</span><span class="tag">VS Code</span>
+      </div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-card-head">
+        <div class="skill-icon" aria-hidden="true">
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10"/><path d="M12 8v4l3 3"/><path d="M18 2l4 4-4 4"/><path d="M22 6h-6"/></svg>
+        </div>
+        <div class="skill-card-label">ML / AI</div>
+      </div>
+      <div class="skill-tags">
+        <span class="tag">scikit-learn</span><span class="tag">Pandas</span><span class="tag">NumPy</span><span class="tag">Classification</span><span class="tag">Regression</span>
+      </div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-card-head">
+        <div class="skill-icon" aria-hidden="true">
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+        </div>
+        <div class="skill-card-label">CS Fundamentals</div>
+      </div>
+      <div class="skill-tags">
+        <span class="tag">DSA</span><span class="tag">OOP</span><span class="tag">OS</span><span class="tag">DBMS</span>
+      </div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-card-head">
+        <div class="skill-icon" aria-hidden="true">
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <div class="skill-card-label">Soft Skills</div>
+      </div>
+      <div class="skill-tags">
+        <span class="tag">Problem Solving</span><span class="tag">Critical Thinking</span><span class="tag">Teamwork</span><span class="tag">Communication</span>
+      </div>
+    </div>
+  </div>
+</section>
 
-<hr>
+<hr class="divider"/>
 
-    <section id="contact">
-      <h2>Contact Me</h2><br>
-      <p><i class="fas fa-envelope"></i> Email: <a href="mailto:katukamraju566@gmail.com">katukamraju566@gmail.com</a></p>
-      <p><i class="fas fa-phone"></i> Phone: <a href="tel:+919014788688">+91 9014788688</a></p>
-      <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://linkedin.com/in/rajeshkatukam7" target="_blank">linkedin.com/in/rajeshkatukam7</a></p>
-      <p><i class="fab fa-github"></i> GitHub: <a href="https://github.com/rajeshkatukam07" target="_blank">github.com/rajeshkatukam07</a></p>
-      <p><i class="fas fa-map-marker-alt"></i> Location: Hyderabad, India</p>
-      <div class="right-contact">
-<form action="https://formspree.io/f/xeozzoaw" method="POST" class="contact-form" target="_blank">
-      <input type="text" name="Name" placeholder="YOUR NAME" required /><br>
-      <input type="email" name="Mail" placeholder="YOUR EMAIL" required /><br>
-      <input type="text" name="Subject" placeholder="ENTER SUBJECT" required /><br>
-      <textarea name="Message" placeholder="Message Me Here..." cols="35" rows="15" required></textarea><br>
-      <button type="submit" class="button">Send</button>
-</form>
-    </section>
-    
-  </main>
+<!-- PROJECTS -->
+<section class="section fade-up" id="projects" aria-labelledby="projects-heading">
+  <div class="section-label">What I've built</div>
+  <h2 class="section-title" id="projects-heading">Projects</h2>
+  <div class="projects-grid">
+
+    <article class="project-card">
+      <div class="project-number">01 — AI / ML</div>
+      <h3 class="project-title">AI-Powered Hospital Management System</h3>
+      <p class="project-desc">Full-stack hospital system handling patient records, doctor scheduling, and resource allocation for 200+ patients. Integrated ML disease risk prediction model.</p>
+      <div><span class="project-highlight">~85% prediction accuracy &nbsp;·&nbsp; 30% faster queries</span></div>
+      <div class="project-footer">
+        <div class="project-stack"><span class="tag">Python</span><span class="tag">Django</span><span class="tag">MySQL</span><span class="tag">ML</span></div>
+        <a href="https://github.com/Rajeshkatukam07" target="_blank" rel="noopener" class="project-link" aria-label="View Hospital Management System on GitHub">
+          GitHub
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <div class="project-number">02 — Backend</div>
+      <h3 class="project-title">Real-Time Group Chat Application</h3>
+      <p class="project-desc">Multi-user real-time chat using Java socket programming supporting 10+ concurrent users with persistent MySQL message history and presence indicators.</p>
+      <div><span class="project-highlight">10+ concurrent users &nbsp;·&nbsp; Persistent history</span></div>
+      <div class="project-footer">
+        <div class="project-stack"><span class="tag">Java</span><span class="tag">WebSockets</span><span class="tag">MySQL</span><span class="tag">JS</span></div>
+        <a href="https://github.com/Rajeshkatukam07" target="_blank" rel="noopener" class="project-link" aria-label="View Group Chat App on GitHub">
+          GitHub
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <div class="project-number">03 — Frontend</div>
+      <h3 class="project-title">Personal Portfolio Website</h3>
+      <p class="project-desc">Responsive portfolio featuring smooth scroll navigation, animated project cards, skills section, and a working contact form with input validation.</p>
+      <div><span class="project-highlight">95+ Lighthouse score &nbsp;·&nbsp; Fully responsive</span></div>
+      <div class="project-footer">
+        <div class="project-stack"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+        <a href="https://github.com/Rajeshkatukam07" target="_blank" rel="noopener" class="project-link" aria-label="View Portfolio on GitHub">
+          GitHub
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<hr class="divider"/>
+
+<!-- EDUCATION -->
+<section class="section fade-up" id="education" aria-labelledby="edu-heading">
+  <div class="section-label">Academic background</div>
+  <h2 class="section-title" id="edu-heading">Education</h2>
+  <div class="edu-list">
+
+    <div class="edu-card">
+      <div class="edu-dot" aria-hidden="true">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+      </div>
+      <div>
+        <div class="edu-degree">B.Tech — Information Technology</div>
+        <div class="edu-school">CMR Technical Campus, Hyderabad</div>
+        <span class="edu-cgpa">CGPA: 7.6</span>
+      </div>
+      <div class="edu-year"><time datetime="2023-08/2026-06">Aug 2023 – Jun 2026</time></div>
+    </div>
+
+    <div class="edu-card">
+      <div class="edu-dot" aria-hidden="true">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      </div>
+      <div>
+        <div class="edu-degree">Diploma — Electronics &amp; Communication Engineering</div>
+        <div class="edu-school">Govt Polytechnic College</div>
+        <span class="edu-cgpa">CGPA: 7.8</span>
+      </div>
+      <div class="edu-year"><time datetime="2020-05/2023-06">May 2020 – Jun 2023</time></div>
+    </div>
+
+    <div class="edu-card">
+      <div class="edu-dot" aria-hidden="true">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+      </div>
+      <div>
+        <div class="edu-degree">SSC</div>
+        <div class="edu-school">Telangana State Model School &amp; Jr. College</div>
+        <span class="edu-cgpa">CGPA: 8.5</span>
+      </div>
+      <div class="edu-year"><time datetime="2019-06/2020-03">Jun 2019 – Mar 2020</time></div>
+    </div>
+
+  </div>
+</section>
+
+<hr class="divider"/>
+
+<!-- CERTIFICATIONS -->
+<section class="section fade-up" id="certifications" aria-labelledby="cert-heading">
+  <div class="section-label">Credentials</div>
+  <h2 class="section-title" id="cert-heading">Certifications</h2>
+  <div class="cert-grid">
+
+    <a class="cert-card" href="https://drive.google.com/file/d/1aAsZYLuwQ8foPgVDdJNmPNHjIKZ8QP2J/view?usp=drive_link" target="_blank" rel="noopener" aria-label="View Java Full Stack Certificate from Eduskills Academy">
+      <div class="cert-icon" aria-hidden="true">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+      </div>
+      <div><div class="cert-name">Java Full Stack Development</div><div class="cert-issuer">Eduskills Academy</div><div class="cert-year">2024 · View Certificate ↗</div></div>
+    </a>
+
+    <a class="cert-card" href="https://drive.google.com/file/d/1stpFX1HSAEpda9pyscQb0db74AEwOaUZ/view?usp=sharing" target="_blank" rel="noopener" aria-label="View Website Development Certificate from Infosys Springboard">
+      <div class="cert-icon" aria-hidden="true">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+      </div>
+      <div><div class="cert-name">Website Development</div><div class="cert-issuer">Infosys Springboard</div><div class="cert-year">2024 · View Certificate ↗</div></div>
+    </a>
+
+    <a class="cert-card" href="https://drive.google.com/file/d/1q8HuWep3Q3vqAa-K-lS9Xf2YhBbCgsfD/view?usp=drive_link" target="_blank" rel="noopener" aria-label="View Operating Systems Certificate from Cisco">
+      <div class="cert-icon" aria-hidden="true">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>
+      </div>
+      <div><div class="cert-name">Operating Systems</div><div class="cert-issuer">Cisco Networking Academy</div><div class="cert-year">2023 · View Certificate ↗</div></div>
+    </a>
+
+    <a class="cert-card" href="https://drive.google.com/file/d/1p3Ng_nw2VT36Xa9zhad4tyz1qoNdryN_/view?usp=sharing" target="_blank" rel="noopener" aria-label="View Data Analytics Certificate from Deloitte">
+      <div class="cert-icon" aria-hidden="true">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+      </div>
+      <div><div class="cert-name">Data Analytics</div><div class="cert-issuer">Deloitte</div><div class="cert-year">2024 · View Certificate ↗</div></div>
+    </a>
+
+    <a class="cert-card" href="https://drive.google.com/file/d/1uh4rynaibYWOQKi0hECa5JPcBaKdxtbC/view?usp=drive_link" target="_blank" rel="noopener" aria-label="View AI for Beginners Certificate from HP LIFE">
+      <div class="cert-icon" aria-hidden="true">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10"/><path d="M12 8v4l3 3"/></svg>
+      </div>
+      <div><div class="cert-name">AI for Beginners</div><div class="cert-issuer">HP LIFE</div><div class="cert-year">2024 · View Certificate ↗</div></div>
+    </a>
+
+    <a class="cert-card" href="#" target="_blank" rel="noopener" aria-label="View Gemini for Google Workspace Certificate">
+      <div class="cert-icon" aria-hidden="true">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+      </div>
+      <div><div class="cert-name">Gemini for Google Workspace</div><div class="cert-issuer">Google</div><div class="cert-year">2024 · View Certificate ↗</div></div>
+    </a>
+
+  </div>
+</section>
+
+<hr class="divider"/>
+
+<!-- ACHIEVEMENTS -->
+<section class="section fade-up" id="achievements" aria-labelledby="ach-heading">
+  <div class="section-label">Recognition</div>
+  <h2 class="section-title" id="ach-heading">Achievements &amp; Activities</h2>
+  <div class="achieve-list">
+
+    <div class="achieve-card">
+      <div class="achieve-icon gold" aria-hidden="true">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 3 18 9"/><path d="M6 9H4a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-1a2 2 0 0 0-2-2h-2"/><rect x="8" y="14" width="8" height="8"/></svg>
+      </div>
+      <div>
+        <div class="achieve-title">Top 10 Finalist — Quantanova v1 Hackathon</div>
+        <p class="achieve-desc">Qualified among the top 10 teams out of 80+ participating groups at St. Martin's Engineering College, Dulapally. Built and presented a real-world software solution within a 24-hour constraint, demonstrating innovation, problem-solving, and effective teamwork under pressure.</p>
+        <div class="achieve-meta">Jul 2025 &nbsp;·&nbsp; St. Martin's Engineering College</div>
+      </div>
+    </div>
+
+    <div class="achieve-card">
+      <div class="achieve-icon blue" aria-hidden="true">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+      </div>
+      <div>
+        <div class="achieve-title">DSA Problem Solving — 150+ Problems Solved</div>
+        <p class="achieve-desc">Actively solving Data Structure &amp; Algorithm problems on LeetCode, Codeforces, CodeChef, and HackerRank. Currently targeting 200+ problems with a focused study plan covering arrays, trees, graphs, and dynamic programming.</p>
+        <div class="achieve-meta">Ongoing &nbsp;·&nbsp; LeetCode · Codeforces · CodeChef · HackerRank</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<hr class="divider"/>
+
+<!-- CONTACT -->
+<section id="contact" class="fade-up" aria-labelledby="contact-heading">
+  <div class="section-label">Let's connect</div>
+  <h2 class="section-title" id="contact-heading">Get in Touch</h2>
+  <div class="contact-grid">
+    <div class="contact-info">
+      <a href="mailto:katukamraju566@gmail.com" class="contact-item">
+        <svg class="ico" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        katukamraju566@gmail.com
+      </a>
+      <a href="tel:+919014788688" class="contact-item">
+        <svg class="ico" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.36 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.64a16 16 0 0 0 6.06 6.06l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        +91 9014788688
+      </a>
+      <a href="https://linkedin.com/in/rajesh-katukam7" target="_blank" rel="noopener" class="contact-item">
+        <svg class="ico" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        linkedin.com/in/rajesh-katukam7
+      </a>
+      <a href="https://github.com/Rajeshkatukam07" target="_blank" rel="noopener" class="contact-item">
+        <svg class="ico" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+        github.com/Rajeshkatukam07
+      </a>
+      <div class="contact-item" style="cursor:default;">
+        <svg class="ico" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Hyderabad, Telangana, India
+      </div>
+    </div>
+
+    <form action="https://formspree.io/f/xeozzoaw" method="POST" class="contact-form" target="_blank" aria-label="Contact form">
+      <div class="form-group">
+        <label class="form-label" for="contact-name">Your Name</label>
+        <input type="text" id="contact-name" name="Name" placeholder="John Doe" required autocomplete="name"/>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="contact-email">Email Address</label>
+        <input type="email" id="contact-email" name="Mail" placeholder="john@email.com" required autocomplete="email"/>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="contact-subject">Subject</label>
+        <input type="text" id="contact-subject" name="Subject" placeholder="Job opportunity / Collaboration" required/>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="contact-message">Message</label>
+        <textarea id="contact-message" name="Message" placeholder="Hey Rajesh, I'd like to connect about..." required></textarea>
+      </div>
+      <button type="submit">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+        Send Message
+      </button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <span>© 2026 Rajesh Katukam. Built with HTML, CSS &amp; JS.</span>
+  <div class="foot-icons">
+    <a href="https://github.com/Rajeshkatukam07" target="_blank" rel="noopener" aria-label="GitHub profile">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+    </a>
+    <a href="https://linkedin.com/in/rajesh-katukam7" target="_blank" rel="noopener" aria-label="LinkedIn profile">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+    </a>
+    <a href="mailto:katukamraju566@gmail.com" aria-label="Email Rajesh">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+    </a>
+  </div>
+</footer>
 
 <script>
-  let currentIndex = 0;
-  const slides = document.querySelectorAll(".slide");
-  const dots = document.querySelectorAll(".dot");
-
-  function showSlide(index) {
-    slides.forEach((slide, i) => {
-      slide.classList.toggle("active", i === index);
-      dots[i].classList.toggle("active", i === index);
-    });
-    currentIndex = index;
-  }
-
-  function currentSlide(index) {
-    showSlide(index);
-  }
-
-  function autoSlide() {
-    currentIndex = (currentIndex + 1) % slides.length;
-    showSlide(currentIndex);
-  }
-
-  
-  setInterval(autoSlide, 4000);
-
-  
-  showSlide(0);
+  // Intersection observer for scroll animations
+  const obs = new IntersectionObserver(
+    (entries) => entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }),
+    { threshold: 0.08, rootMargin: '0px 0px -40px 0px' }
+  );
+  document.querySelectorAll('.fade-up').forEach(el => obs.observe(el));
 </script>
-
-
 
 </body>
 </html>
